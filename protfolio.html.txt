@@ -1,0 +1,24 @@
+#changeing and adding items in dictionary
+#syntax =  dictname['key']='value' it will change
+d={'item':'bike','name':'yedzi','speed':'200'}# seee the speed in output
+d['speed']='250'
+print(d)
+#update method()
+d.update({'speed':'300'})# we can aslo ad new item
+print(d)
+#adding new item
+d.update({'colour':'blue'})
+print(d)
+#removing item using pop method
+d.pop('colour')
+print(d)
+#
+d.popitem()#it remove the last item
+print(d)
+#using del key word deleting an item
+del d['name']
+print(d)
+d.clear()
+print(d)#gives empty dictionary
+del d
+print(d)# we get output error
